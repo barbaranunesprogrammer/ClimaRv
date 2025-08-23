@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo e Lua em Rio Verde</title>
+    <link rel="stylesheet" href="src/assets/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        <h1>Previsão do Tempo e Lua em Rio Verde-GO</h1>
+
+        <p>Nesta página, conseguiremos ver a previsão atual do tempo e também como está a Lua. </p>
+        <p>Além disso, poderemos acompanhar a previsão do dia de hoje e dos próximos 3 dias.</p>
+        <p><a href="https://www.google.com/maps/place/Rio+Verde,+GO/@-17.7976295,-50.9267885,13z/data=!3m1!4b1!4m6!3m5!1s0x9361db7d2c321dc1:0xe7ac78da77d5dc69!8m2!3d-17.7896277!4d-50.9204571!16s%2Fg%2F11bc63vcvx?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank">Clique aqui e saiba onde e Rio Verde</a></p>
+    </main>
+    <section class="navegacao">
+        <section class="navegacao">
+            <nav>
+                <ul>
+                    <li><a href="https://api-weather-rioverde-go.onrender.com/" target="_blank">API</a></li>
+                    <li><a href="#previsao-tempo">Clima Hoje</a></li>
+                    <li><a href="#proximos-3-dias">Próximos 3 Dias</a></li>
+                    <li><a href="#lua-hoje">Lua Hoje</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="hoje-previsao">
+
+            <section class="previsao-tempo" id="previsao-tempo">
+                <h2>Previsão do tempo para hoje em Rio Verde - GO</h2>
+                <div class="previsao-tempo-atual"> Carregando...</div>
+
+            </section>
+        </div>
+        <section class="proximos-dias" id="proximos-3-dias">
+            <h2> Previsão dos Proximos 3 Dias </h2>
+            <div class="previsao-proximos-3-dias">
+
+                <div id="dia1"></div>
+                <div id="dia2"></div>
+                <div id="dia3"></div>
+            </div>
+        </section>
+
+
+        <div class="moon">
+            <section class="lua-hoje" id="lua-hoje">
+            </section>
+
+        </div>
+        <footer>
+            <p>Desenvolvido por <a href="https://portfoliobarbara-1uqfzybjg-barbaranunesprogramadora.vercel.app/" target="_blank">Barbara Nunes</a></p> 
+        </footer>
+
+
+</body>
+<script type="module" src="src/index.js"></script>
+
+</html>

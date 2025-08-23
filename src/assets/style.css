@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dfc7ad;
+    color: #333;
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    background-color: #9eaa7e;
+    border-radius: 8px;
+}
+
+main h1 {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #000000;
+}
+
+.main a {
+    text-decoration: none;
+     color: #e58934;
+    border: 3px solid #e58934;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navegacao ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    list-style: none;
+    padding: 20px;
+    gap: 50px;
+    text-decoration: none;
+
+
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+
+
+}
+
+.navegacao ul li {
+    margin-bottom: 10px;
+    border: 3px solid#9eaa7e;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e58934;
+    color: #9eaa7e;
+}
+
+.hoje-previsao {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #e58934;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px
+}
+
+.hoje-previsao h2 {
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+
+.previsao-tempo-atual {
+    background-color: #9eaa7e;
+    border-radius: 8px;
+    max-width: 400px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.previsao-proximos-3-dias {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.previsao-proximos-3-dias .dia {
+
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: #e58934;
+    gap: 10px;
+    border: 2px solid #9eaa7e;
+}
+
+.proximos-dias {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #9eaa7e;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px
+}
+
+.proximos-dias h2 {
+    text-align: center;
+}
+
+.moon {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #e58934;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px
+}
+
+.lua-hoje {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #9eaa7e;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px
+}
+
+.lua-hoje h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #9eaa7e;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px
+}
+
+footer a {
+    text-decoration: none;
+    color: #e58934;
+    border: 3px solid #e58934;
+    border-radius: 8px;
+    display: inline-block;
+    gap:15px;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .navegacao ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .navegacao ul li {
+        margin-bottom: 5px;
+        border: 3px solid #9eaa7e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+}
