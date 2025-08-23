@@ -45,4 +45,4 @@ Para executar este projeto em sua máquina local, você precisará de um navegad
 
 Desenvolvido por **Bárbara Nunes**.
 
--   **Portfólio:** Acesse o portfólio
+-   **Portfólio:** [Acesse o portfólio](https://portfoliobarbara-1uqfzybjg-barbaranunesprogramadora.vercel.app/)
