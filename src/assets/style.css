@@ -38,6 +38,12 @@ main h1 {
     padding: 5px 10px;
     border-radius: 5px;
 }
+.main a:hover{
+    background-color: #e58934;
+    color: #9eaa7e;
+    transition: 0.3s;}
+
+
 
 .navegacao ul {
     display: flex;
@@ -57,8 +63,11 @@ main h1 {
     font-weight: bold;
     font-size: 18px;
     color: #333;
-
-
+}
+.navegacao ul li a:hover {
+    color: #e58934;
+    color: #9eaa7e;
+    transition: 0.3s;
 }
 
 .navegacao ul li {
@@ -189,6 +198,10 @@ footer a {
     display: inline-block;
     gap:15px;
     padding: 5px 10px;
+}
+footer a:hover {
+    background-color: #e58934;
+    color: #9eaa7e;
 }
 
 @media screen and (max-width: 768px) {
