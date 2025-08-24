@@ -6,8 +6,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
-
-
     background-color: #dfc7ad;
     background-image: url("./Rio-verde.jpg");
     background-size: cover;           
@@ -213,6 +211,11 @@ footer a:hover {
 }
 
 @media screen and (max-width: 768px) {
+      body {
+        background-size: auto;      
+        background-repeat: repeat;  
+        background-attachment: scroll; 
+    }
     .navegacao ul {
         display: flex;
         justify-content: center;
