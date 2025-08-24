@@ -14,6 +14,8 @@ export default async function carregarClima() {
       <strong>Pressão:</strong> ${data.pressao_mb} mb<br>
       <strong>Nebulosidade:</strong> ${data.nebulosidade}%<br>
       <strong>Índice UV:</strong> ${data.indice_uv}
+      <strong>Maxima:</strong> ${data.temperatura_maxima_c}°C<br>
+      <strong>Minima:</strong> ${data.temperatura_minima_c}°C<br>
     `;
   } catch (error) {
     console.error("Erro clima:", error);

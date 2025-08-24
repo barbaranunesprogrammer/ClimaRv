@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #dfc7ad;
     color: #333;
-}
+
+
+    background-color: #dfc7ad;
+    background-image: url("./Rio-verde.jpg");
+    background-size: cover;           
+    background-repeat: no-repeat;    
+    background-position: center;     
+    background-attachment: fixed;   
+    min-height: 100vh;               
 
 .main {
     width: 100%;
@@ -26,7 +32,7 @@ main h1 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 36px;
-    color: #000000;
+    color: #e58934;
 }
 
 .main a {
@@ -95,6 +101,7 @@ main h1 {
 .hoje-previsao h2 {
     text-align: center;
     margin-bottom: 20px;
+    color:#9eaa7e;
 
 
 }
@@ -201,6 +208,7 @@ footer a {
 }
 footer a:hover {
     background-color: #e58934;
+    
     color: #9eaa7e;
 }
 
@@ -215,11 +223,10 @@ footer a:hover {
     }
 
     .navegacao ul li {
-        margin-bottom: 5px;
-        border: 3px solid #9eaa7e;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        padding: 5px;
-        border-radius: 8px;
+         width: 50%;       
+        padding: 10px 10px;
+        font-size: 14px;
+        margin: 0 auto;
     }
 
-}
+}}
