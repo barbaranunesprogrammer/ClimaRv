@@ -23,7 +23,7 @@ export default async function carregarLua() {
       "Lua Crescente": "src/assets/fases_lua/waxing_crescent.png",
       "Lua Minguante": "src/assets/fases_lua/waning_crescent.png",
       "Gibosa Crescente": "src/assets/fases_lua/waxing_gibbous.png",
-      "Gibosa Minguante": "src/assets/fases_lua/waning_gibbous.png",
+      "Gibosa Minguante": "src/assets/fases_lua/waxing_gibbous.png",
       "Crescente": "src/assets/fases_lua/waxing_crescent.png",
     };
 
