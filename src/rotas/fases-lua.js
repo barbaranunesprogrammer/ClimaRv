@@ -15,17 +15,17 @@ export default async function carregarLua() {
     const data = await response.json();
 
     // Mapeamento direto das fases da API (em PT-BR) para imagens
-    const imagensLua = {
-      "Lua Nova": "src/assets/fases_lua/new.png",
-      "Lua Cheia": "src/assets/fases_lua/full.png",
-      "Quarto Crescente": "src/assets/fases_lua/first_quarter.png",
-      "Quarto Minguante": "src/assets/fases_lua/last_quarter.png",
-      "Lua Crescente": "src/assets/fases_lua/waxing_crescent.png",
-      "Lua Minguante": "src/assets/fases_lua/waning_crescent.png",
-      "Gibosa Crescente": "src/assets/fases_lua/waxing_gibbous.png",
-      "Gibosa Minguante": "src/assets/fases_lua/waxing_gibbous.png",
-      "Crescente": "src/assets/fases_lua/waxing_crescent.png",
-    };
+  const imagensLua = {
+  "Lua Nova": "src/assets/fases_lua/new.png",
+  "Lua Cheia": "src/assets/fases_lua/full.png",
+  "Quarto Crescente": "src/assets/fases_lua/first_quarter.png",
+  "Quarto Minguante": "src/assets/fases_lua/last_quarter.png",
+  "Lua Crescente": "src/assets/fases_lua/waxing_crescent.png",
+  "Lua Minguante": "src/assets/fases_lua/waning_crescent.png",
+  "Gibosa Crescente": "src/assets/fases_lua/waxing_gibbous.png",
+  "Gibosa Minguante": "src/assets/fases_lua/waning_gibbous.png",
+  "Crescente": "src/assets/fases_lua/waxing_crescent.png",
+};
 
     const fase = data.fase_da_lua; // Exemplo: "Lua Nova"
     const imagem = imagensLua[fase] || "src/assets/fases_lua/default.png";
