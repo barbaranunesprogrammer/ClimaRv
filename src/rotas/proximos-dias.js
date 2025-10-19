@@ -32,7 +32,7 @@ export default async function carregarProximosDias() {
           Condição: ${data.condicao}<br>
           Umidade: ${data.umidade}%<br>
           Iluminação da Lua: ${data.iluminacao_lua}<br>
-          ${data.icone}
+         <img src="https:${data.icone}" alt="Ícone do tempo" width="64" height="64">
         </div>
       `;
     }
