@@ -150,6 +150,12 @@ main h1 {
 .proximos-dias h2 {
     text-align: center;
 }
+    .dia img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
 
 .moon {
     padding: 20px;
