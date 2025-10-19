@@ -23,19 +23,18 @@ export default async function carregarProximosDias() {
 
       const data = await response.json();
 
-      html += `
-     
-        <div class="dia">
-          <strong>${data.data}</strong><br>
-          Temp Max: ${data.max_temp_c}°C<br>
-          Temp Min: ${data.min_temp_c}°C<br>
-          Condição: ${data.condicao}<br>
-          Umidade: ${data.umidade}%<br>
-          Iluminação da Lua: ${data.iluminacao_lua}<br>
-          ${data.icone}
-        </div>
-      `;
-    }
+html += `
+  <div class="dia">
+    <strong>${data.data}</strong><br>
+    Temp Max: ${data.max_temp_c}°C<br>
+    Temp Min: ${data.min_temp_c}°C<br>
+    Condição: ${data.condicao}<br>
+    Umidade: ${data.umidade}%<br>
+    Iluminação da Lua: ${data.iluminacao_lua}<br>
+    <img src="https:${data.icone}" alt="Ícone do tempo" width="64" height="64">
+  </div>
+`;
+
 
     container.innerHTML = html;
   } catch (error) {
