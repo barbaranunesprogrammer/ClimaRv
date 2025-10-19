@@ -31,7 +31,8 @@ export default async function carregarProximosDias() {
           Temp Min: ${data.min_temp_c}°C<br>
           Condição: ${data.condicao}<br>
           Umidade: ${data.umidade}%<br>
-          Lua: ${data.iluminacao_lua}
+          Iluminação da Lua: ${data.iluminacao_lua}<br>
+          ${data.icone}
         </div>
       `;
     }
