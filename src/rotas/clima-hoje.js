@@ -14,7 +14,7 @@ export default async function carregarClima() {
       <strong>Pressão:</strong> ${data.pressao_mb} mb<br>
       <strong>Nebulosidade:</strong> ${data.nebulosidade}%<br>
       <strong>Índice UV:</strong> ${data.indice_uv}<br>
-      <strong> Condição Climatica :</strong< ${data.condicao}
+      <strong> Condição Climatica :</strong>${data.condicao}
 
     `;
   } catch (error) {
